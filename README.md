@@ -71,35 +71,36 @@ El archivo requirements.txt contiene las librerías necesarias:
             cd computer-vision-taller
         ```
 
-    2. Crear entorno virtual
+2. Crear entorno virtual
 
-        ```bash
-            python -m venv .venv
+    ```bash
+        python -m venv .venv
+    ```
 
-        # Si da error por políticas de ejecución:
-        # 🔧 Solución:
-            #1. Abre PowerShell como Administrador (clic derecho sobre PowerShell → "Ejecutar como administrador").
-            #2. Verifica la política actual con: 
-                
+Si da error por políticas de ejecución:
+    🔧 Solución:
+        1. Abre PowerShell como Administrador (clic derecho sobre PowerShell → "Ejecutar como administrador").
+        2. Verifica la política actual con: 
+                ```bash
                     Get-ExecutionPolicy
-
-            #3. Si aparece 'Restricted', cambia la política a algo más permisivo, por ejemplo RemoteSigned:
-
+                ```
+        3. Si aparece 'Restricted', cambia la política a algo más permisivo, por ejemplo RemoteSigned:
+                ```bash
                     Set-ExecutionPolicy RemoteSigned
-
+                ```
                 # esto te pedirá confirmación, escribe Y y enter o S y enter.
-            #4. Cierra PowerShell y vuelve a abrirlo en la carpeta donde se guarde el proyecto.
-            #5. Activa el entorno virtual: 
-
+        4. Cierra PowerShell y vuelve a abrirlo en la carpeta donde se guarde el proyecto.
+        5. Activa el entorno virtual: 
+                ```bash
                     venv\Scripts\Activate
-        ```
+                ```
 
-    3. Actualizar pip (opcional pero recomendado)
+3. Actualizar pip (opcional pero recomendado)
         ```bash
             python -m pip install --upgrade pip
         ```
 
-    4. Instalar dependencias
+4. Instalar dependencias
         ```bash
             pip install -r requirements.txt
         ```
@@ -109,6 +110,7 @@ El archivo requirements.txt contiene las librerías necesarias:
 ## ▶️ Uso
 
 - Ejecutar la demo completa:
+
     ```bash
         python main.py
     ```
@@ -124,6 +126,7 @@ Esto ejecutará tres demostraciones:
 Tener en cuenta que para que las imágenes aparezcan hay que cerrar las otras y que algunas se demoran en verse.
 
 - Ejecutar los tests:
+
     ```bash
         python -m pytest
     ```
