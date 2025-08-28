@@ -64,7 +64,7 @@ El archivo requirements.txt contiene las librerías necesarias:
 
 ## ⚙️ Instalación paso a paso
 
-    1. Clonar el repositorio
+1. Clonar el repositorio
 
         ```bash
             git clone https://github.com/CamilaG2/computer-vision-taller1.git
@@ -108,22 +108,22 @@ El archivo requirements.txt contiene las librerías necesarias:
 
 ## ▶️ Uso
 
-    - Ejecutar la demo completa:
+- Ejecutar la demo completa:
     ```bash
         python main.py
     ```
 
-    Esto ejecutará tres demostraciones:
+Esto ejecutará tres demostraciones:
 
-        - Cámara: proyección con longitud focal.
+- Cámara: proyección con longitud focal.
 
-        - Color: reducción de colores y cálculo de tamaño.
+- Color: reducción de colores y cálculo de tamaño.
 
-        - Filtros: bordes con Sobel, Laplaciano y Canny.
+- Filtros: bordes con Sobel, Laplaciano y Canny.
     
-    Tener en cuenta que para que las imágenes aparezcan hay que cerrar las otras y que algunas se demoran en verse.
+Tener en cuenta que para que las imágenes aparezcan hay que cerrar las otras y que algunas se demoran en verse.
 
-    - Ejecutar los tests:
+- Ejecutar los tests:
     ```bash
         python -m pytest
     ```
