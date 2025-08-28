@@ -60,45 +60,45 @@ pytest>=8.0
 ```
 ---
 
-### ⚙️ Instalación paso a paso
+## ⚙️ Instalación paso a paso
 
     1. Clonar el repositorio
 
-        ```powershell
+        ```bash
             git clone https://github.com/CamilaG2/computer-vision-taller1.git
             cd computer-vision-taller
         ```
 
     2. Crear entorno virtual
 
-        ```powershell
+        ```bash
             python -m venv .venv
         ```
         # Si da error por políticas de ejecución:
         # 🔧 Solución:
             1. Abre PowerShell como Administrador (clic derecho sobre PowerShell → "Ejecutar como administrador").
             2. Verifica la política actual con: 
-                ```powershell
+                ```bash
                     Get-ExecutionPolicy
                 ```
             3. Si aparece 'Restricted', cambia la política a algo más permisivo, por ejemplo RemoteSigned:
-                ```powershell
+                ```bash
                     Set-ExecutionPolicy RemoteSigned
                 ```
                 esto te pedirá confirmación, escribe Y y enter o S y enter.
             4. Cierra PowerShell y vuelve a abrirlo en la carpeta donde se guarde el proyecto.
             5. Activa el entorno virtual: 
-                ```powershell
+                ```bash
                     venv\Scripts\Activate
                 ```
 
     3. Actualizar pip (opcional pero recomendado)
-        ```powershell
+        ```bash
             python -m pip install --upgrade pip
         ```
 
     4. Instalar dependencias
-        ```powershell
+        ```bash
             pip install -r requirements.txt
         ```
 
@@ -107,7 +107,7 @@ pytest>=8.0
 ## ▶️ Uso
 
     *Ejecutar la demo completa:*
-    ```powershell
+    ```bash
         python main.py
     ```
 
@@ -122,6 +122,6 @@ pytest>=8.0
     Tener en cuenta que para que las imágenes aparezcan hay que cerrar las otras y que algunas se demoran en verse.
 
     -*Ejecutar los tests*
-    ```powershell
+    ```bash
         python -m pytest
     ```
