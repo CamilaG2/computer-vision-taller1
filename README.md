@@ -65,29 +65,31 @@ El archivo requirements.txt contiene las librerías necesarias:
 ## ⚙️ Instalación paso a paso
 
 1. Clonar el repositorio
-
-        ```bash
-            git clone https://github.com/CamilaG2/computer-vision-taller1.git
-            cd computer-vision-taller
-        ```
+```bash
+git clone https://github.com/CamilaG2/computer-vision-taller1.git
+cd computer-vision-taller
+```
 
 2. Crear entorno virtual
 
-    ```bash
-        python -m venv .venv
-
+```bash
+    python -m venv .venv
     #Si da error por políticas de ejecución:
         🔧 Solución:
             #1. Abre PowerShell como Administrador (clic derecho sobre PowerShell → "Ejecutar como administrador").
+
             #2. Verifica la política actual con: 
-                        Get-ExecutionPolicy
+                Get-ExecutionPolicy
+
             #3. Si aparece 'Restricted', cambia la política a algo más permisivo, por ejemplo RemoteSigned:
-                        Set-ExecutionPolicy RemoteSigned
-                    # esto te pedirá confirmación, escribe Y y enter o S y enter.
+                Set-ExecutionPolicy RemoteSigned
+            # esto te pedirá confirmación, escribe Y y enter o S y enter.
+
             #4. Cierra PowerShell y vuelve a abrirlo en la carpeta donde se guarde el proyecto.
+
             #5. Activa el entorno virtual: 
-                        venv\Scripts\Activate
-    ```
+                venv\Scripts\Activate
+```
 
 3. Actualizar pip (opcional pero recomendado)
         ```bash
