@@ -51,13 +51,15 @@ Comprueba tus versiones en Windows:
 
 El archivo requirements.txt contiene las librerías necesarias:
 ```bash
-numpy>=1.26
-opencv-python>=4.9
-matplotlib>=3.8
-scikit-image>=0.24
-Pillow>=10.0
-pytest>=8.0
+    numpy>=1.26
+    opencv-python>=4.9
+    matplotlib>=3.8
+    scikit-image>=0.24
+    Pillow>=10.0
+    pytest>=8.0
+
 ```
+
 ---
 
 ## ⚙️ Instalación paso a paso
@@ -73,24 +75,24 @@ pytest>=8.0
 
         ```bash
             python -m venv .venv
-        ```
+
         # Si da error por políticas de ejecución:
         # 🔧 Solución:
-            1. Abre PowerShell como Administrador (clic derecho sobre PowerShell → "Ejecutar como administrador").
-            2. Verifica la política actual con: 
-                ```bash
+            #1. Abre PowerShell como Administrador (clic derecho sobre PowerShell → "Ejecutar como administrador").
+            #2. Verifica la política actual con: 
+                
                     Get-ExecutionPolicy
-                ```
-            3. Si aparece 'Restricted', cambia la política a algo más permisivo, por ejemplo RemoteSigned:
-                ```bash
+
+            #3. Si aparece 'Restricted', cambia la política a algo más permisivo, por ejemplo RemoteSigned:
+
                     Set-ExecutionPolicy RemoteSigned
-                ```
-                esto te pedirá confirmación, escribe Y y enter o S y enter.
-            4. Cierra PowerShell y vuelve a abrirlo en la carpeta donde se guarde el proyecto.
-            5. Activa el entorno virtual: 
-                ```bash
+
+                # esto te pedirá confirmación, escribe Y y enter o S y enter.
+            #4. Cierra PowerShell y vuelve a abrirlo en la carpeta donde se guarde el proyecto.
+            #5. Activa el entorno virtual: 
+
                     venv\Scripts\Activate
-                ```
+        ```
 
     3. Actualizar pip (opcional pero recomendado)
         ```bash
@@ -106,7 +108,7 @@ pytest>=8.0
 
 ## ▶️ Uso
 
-    *Ejecutar la demo completa:*
+    - Ejecutar la demo completa:
     ```bash
         python main.py
     ```
@@ -121,7 +123,7 @@ pytest>=8.0
     
     Tener en cuenta que para que las imágenes aparezcan hay que cerrar las otras y que algunas se demoran en verse.
 
-    -*Ejecutar los tests*
+    - Ejecutar los tests:
     ```bash
         python -m pytest
     ```
