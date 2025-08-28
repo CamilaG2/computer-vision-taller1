@@ -12,7 +12,7 @@ Se incluyen además **demos** y **tests automáticos** para validar el correcto 
 
 ## 📂 Estructura del repositorio
 
-```txt
+```
 computer-vision-taller/
 ├─ cvtools/
 │ ├─ init.py
@@ -29,7 +29,7 @@ computer-vision-taller/
 ├─ main.py
 ├─ requirements.txt
 └─ README.md
-
+```
 
 ---
 
@@ -41,15 +41,16 @@ El proyecto fue probado con:
 - Versiones muy recientes (ej. 3.14) pueden dar errores de compatibilidad en librerías como `scikit-image`.
 
 Comprueba tus versiones en Windows:
-```powershell
-py -0
+```bash
+    py -0
+```
 
 ---
 
 ## 📦 Dependencias
 
 El archivo requirements.txt contiene las librerías necesarias:
-```txt
+```bash
 numpy>=1.26
 opencv-python>=4.9
 matplotlib>=3.8
@@ -64,7 +65,7 @@ pytest>=8.0
     1. Clonar el repositorio
 
         ```powershell
-            git clone https://github.com/TU_USUARIO/computer-vision-taller.git
+            git clone https://github.com/CamilaG2/computer-vision-taller1.git
             cd computer-vision-taller
         ```
 
