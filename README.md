@@ -56,7 +56,7 @@ matplotlib>=3.8
 scikit-image>=0.24
 Pillow>=10.0
 pytest>=8.0
-
+```
 ---
 
 ### ⚙️ Instalación paso a paso
