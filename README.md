@@ -1,12 +1,13 @@
 # Taller 1 — Computer Vision
 
-Este repositorio contiene el desarrollo del **Taller 1 de Visión por Computadora**, que incluye la implementación de una librería en Python llamada `cvtools`.  
-La librería integra funciones relacionadas con:
+En este repositorio se podrá encontrar el desarrollo del **Taller 1 de Visión por Computadora** el cual contiene diferentes funciones relacionadas con:
 - **Cámara**: proyecciones y distorsiones.
 - **Color**: transformaciones de espacio de color y cuantización.
 - **Filtros**: detección de bordes (Sobel, Laplaciano, Canny).
 
 Se incluyen además **demos** y **tests automáticos** para validar el correcto funcionamiento.
+
+A continuación encontrará la estructura del taller y el paso a paso de cómo ejecutarlo para su correcto funcionamiento.
 
 ---
 
@@ -35,12 +36,12 @@ computer-vision-taller/
 
 ## 🐍 Recomendación de Python
 
-El proyecto fue probado con:
+El presente taller fue realizado con:
 
-- **Python 3.12.x** (recomendado).  
-- Versiones muy recientes (ej. 3.14) pueden dar errores de compatibilidad en librerías como `scikit-image`.
+- La versión **Python 3.12.x** para el correcto funcionamiento de algunas librerias usadas a lo largo del taller.  
+- Versiones muy recientes como la 3.14 pueden dar errores de compatibilidad en librerías como `scikit-image`.
 
-Comprueba tus versiones en Windows:
+Para comprobar tus versiones en Windows:
 ```bash
     py -0
 ```
@@ -85,7 +86,7 @@ cd computer-vision-taller
                 Set-ExecutionPolicy RemoteSigned
             # esto te pedirá confirmación, escribe Y y enter o S y enter.
 
-            #4. Cierra PowerShell y vuelve a abrirlo en la carpeta donde se guarde el proyecto.
+            #4. Cierra PowerShell y vuelve a abrir la carpeta donde se guardó el proyecto para ejecutar.
 
             #5. Activa el entorno virtual: 
                 venv\Scripts\Activate
@@ -105,7 +106,7 @@ cd computer-vision-taller
 
 ## ▶️ Uso
 
-- Ejecutar la demo completa:
+- Ejecución completa:
 
     ```bash
         python main.py
@@ -123,6 +124,14 @@ Tener en cuenta que para que las imágenes aparezcan hay que cerrar las otras y 
 
 - Ejecutar los tests:
 
+Los test es mejor ejecutarlos desde la raíz con el venv activado para su correcto funcionamiento.
+
     ```bash
         python -m pytest
     ```
+---
+
+## 😄 Autora
+
+María Camila García Ramírez - Uso académico - Taller 1 Visión por Computadora.
+
