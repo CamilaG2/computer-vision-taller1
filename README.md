@@ -108,9 +108,9 @@ cd computer-vision-taller
 
 - Ejecución completa:
 
-    ```bash
-        python main.py
-    ```
+```bash
+    python main.py
+```
 
 Esto ejecutará tres demostraciones:
 
@@ -125,10 +125,9 @@ Tener en cuenta que para que las imágenes aparezcan hay que cerrar las otras y 
 - Ejecutar los tests:
 
 Los test es mejor ejecutarlos desde la raíz con el venv activado para su correcto funcionamiento.
-
-    ```bash
-        python -m pytest
-    ```
+```bash
+    python -m pytest
+```
 ---
 
 ## 😄 Autora
